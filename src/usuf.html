@@ -1,52 +1,650 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
     <section class="max-w-300 mx-auto p-4">
-        <div class="flex flex-col lg:flex-row sm:items-center  items-end gap-[20px]">
-            <div class="flex flex-col gap-[10px]">
-                <img src="./img_ma/Group 246.png" alt="">
-                <img src="./img_ma/Group 247.png" alt="">
-            </div>
-            <div class="flex flex-col gap-[40px]">
-                <h1 class="text-2xl font-bold">Дом в классическом стиле площадью 139,8 м2 </h1>
-                <div class="flex lg:flex-col md:flex-row gap-[10px] sm:gap-[30px]  sm:flex-col ">
-                    <div class="flex flex-col gap-[20px]">
-                        <div class="flex items-center gap-[10px]">
-                            <img src="./img_ma/carbon_home.png" alt="">
-                            <p>Площадь дома -  139,8 м2</p>
-                        </div>
-                        <div class="flex items-center gap-[10px]">
-                            <img src="./img_ma/carbon_floorplan.png" alt="">
-                            <p>Площадь участка -  5,1 сот.</p>
-                        </div>
-                        <div class="flex items-center gap-[10px]">
-                            <img src="./img_ma/fluent-mdl2_custom-list.png" alt="">
-                            <p>Тип участка - ИЖС</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-[20px]">
-                        <div class="flex items-center gap-[10px]">
-                            <img src="./img_ma/carbon_building.png" alt="">
-                            <p>Количество этажей - 2</p>
-                        </div>
-                        <div class="flex items-center gap-[10px]">
-                            <img src="./img_ma/bi_door-open.png" alt="">
-                            <p>Количество комнат - 5</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex lg:flex-col flex-col sm:flex-row gap-[20px]">
-                    <p class="gap-[40px] text-[21px]">Цена <span class="text-[#EFA35A] font-bold">13 800 000 ₽</span></p>
-                    <button class="bg-[#EFA35A] text-white py-4 w-[100%]">Получить консультацию</button>
-                </div>
-            </div>
+      <div
+        class="flex flex-col lg:flex-row sm:items-center items-end gap-[20px]"
+      >
+        <div class="flex flex-col gap-[10px]">
+          <img src="./img_ma/Group 246.png" alt="" />
+          <img src="./img_ma/Group 247.png" alt="" />
         </div>
+        <div class="flex flex-col gap-[40px]">
+          <h1 class="text-2xl font-bold">
+            Дом в классическом стиле площадью 139,8 м2
+          </h1>
+          <div
+            class="flex lg:flex-col md:flex-row gap-[10px] sm:gap-[30px] sm:flex-col"
+          >
+            <div class="flex flex-col gap-[20px]">
+              <div class="flex items-center gap-[10px]">
+                <img src="./img_ma/carbon_home.png" alt="" />
+                <p>Площадь дома - 139,8 м2</p>
+              </div>
+              <div class="flex items-center gap-[10px]">
+                <img src="./img_ma/carbon_floorplan.png" alt="" />
+                <p>Площадь участка - 5,1 сот.</p>
+              </div>
+              <div class="flex items-center gap-[10px]">
+                <img src="./img_ma/fluent-mdl2_custom-list.png" alt="" />
+                <p>Тип участка - ИЖС</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+              <div class="flex items-center gap-[10px]">
+                <img src="./img_ma/carbon_building.png" alt="" />
+                <p>Количество этажей - 2</p>
+              </div>
+              <div class="flex items-center gap-[10px]">
+                <img src="./img_ma/bi_door-open.png" alt="" />
+                <p>Количество комнат - 5</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex lg:flex-col flex-col sm:flex-row gap-[20px]">
+            <p class="gap-[40px] text-[21px]">
+              Цена <span class="text-[#EFA35A] font-bold">13 800 000 ₽</span>
+            </p>
+            <button
+              class="bg-gradient-to-r from-[#EFA35A] via-[#f39a47] to-orange-500 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_2s_linear_infinite] shadow-[0_0_30px_orange] hover:scale-106 transition-transform text-white py-4 w-[100%]"
+            >
+              Получить консультацию
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+    <section class="mx-auto max-w-300 mt-20 p-4">
+      <div class="flex flex-col lg:flex-row gap-[60px]">
+        <div class="flex flex-col gap-[30px] p-7 shadow-2xl">
+          <div class="flex flex-col gap-[20px]">
+            <div class="flex items-center gap-[20px]">
+              <img src="./img_ma/Group.png" alt="" />
+              <p class="text-[28px]">Типы помещений</p>
+            </div>
+            <div class="flex flex-col gap-[4px]">
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>4 просторные спальни</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>2 с/у</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>кухня-гостиная</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>гардеробная</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>терраса</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>мансардный этаж</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                    fill="black"
+                  />
+                </svg>
+                <p>парковка на 2 машины</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[20px]">
+            <img
+              src="./img_ma/construction_project_plan_building_architect_design_develop-60_icon-icons.com_60240 1.png"
+              alt=""
+            />
+            <p class="text-[28px]">Общие характеристики</p>
+          </div>
+          <div class="flex flex-col gap-[4px]">
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>керамоблок не требующий утепления</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>2 с/у</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>толщина стен пол метра</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>кровля утеплена</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>ж/б меж этажные перекрытия</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>лестница входная и межэтажная монолитная</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>предчистовая отделка, Whitе Вох</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-[20px]">
+            <img
+              src="./img_ma/construction_project_plan_building_architect_design_develop-62_icon-icons.com_60212 1.png "
+              alt=""
+            />
+            <p class="text-[28px]">Коммуникации и удобства</p>
+          </div>
+          <div class="flex flex-col gap-[4px]">
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>газ</p>
+            </div>
+
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>вода</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>электричество</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>терраса</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>канализация</p>
+            </div>
+            <div class="flex gap-[5px]">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.2449 7.33594L24.2549 8.74594L15.5399 21.3159H13.5299L8.66992 14.5059L10.6799 12.6309L14.5349 16.2309L22.2449 7.33594Z"
+                  fill="black"
+                />
+              </svg>
+              <p>отопление</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-[30px] p-5 shadow-2xl">
+          <h1 class="text-[39px]">Ипотека</h1>
+          <div class="flex gap-[10px]">
+            <div class="flexe relative flex-col gap-[5px]">
+              <svg
+                class="absolute top-[40%] left-[80%]"
+                width="33"
+                height="33"
+                viewBox="0 0 33 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M10 14L17 21L24 14H10Z" fill="black" />
+              </svg>
+
+              <p>Вид недвижимости</p>
+              <input
+                type="text"
+                placeholder="Все "
+                class="placeholder:text-black bg-gray-100 p-2 w-[100%]"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="flexe relative flex-col gap-[5px]">
+              <svg
+                class="absolute top-[40%] left-[60%]"
+                width="33"
+                height="33"
+                viewBox="0 0 33 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M10 14L17 21L24 14H10Z" fill="black" />
+              </svg>
+
+              <p>Вид недвижимости</p>
+              <input
+                type="text"
+                placeholder="Все "
+                class="placeholder:text-black bg-gray-100 p-2 w-[80%]"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+          <div class="flexe relative flex-col gap-[10px]">
+            <svg
+              class="absolute top-[40%] left-[80%]"
+              width="33"
+              height="33"
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 14L17 21L24 14H10Z" fill="black" />
+            </svg>
+            <p>Вид недвижимости</p>
+            <input
+              type="text"
+              placeholder="Все "
+              class="placeholder:text-black bg-gray-100 p-2 w-[90%]"
+              name=""
+              id=""
+            />
+          </div>
+          <div class="flexe relative flex-col gap-[10px]">
+            <svg
+              class="absolute top-[30%] left-[80%]"
+              width="33"
+              height="33"
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 14L17 21L24 14H10Z" fill="black" />
+            </svg>
+            <p>Стоимость</p>
+            <input
+              type="text"
+              placeholder="3 000 000 $ "
+              class="placeholder:text-black bg-gray-100 p-2 w-[90%]"
+              name=""
+              id=""
+            />
+            <input
+              type="range"
+              class="bg-[#EFA35A] text-[#EFA35A] w-[90%]"
+              name=""
+              id=""
+            />
+          </div>
+          <div class="flexe relative flex-col gap-[10px]">
+            <svg
+              class="absolute top-[30%] left-[80%]"
+              width="33"
+              height="33"
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 14L17 21L24 14H10Z" fill="black" />
+            </svg>
+            <p>Стоимость</p>
+            <input
+              type="text"
+              placeholder="2 000 000 $ "
+              class="placeholder:text-black bg-gray-100 p-2 w-[90%]"
+              name=""
+              id=""
+            />
+            <input
+              type="range"
+              class="bg-[#EFA35A] text-[#EFA35A] w-[90%]"
+              name=""
+              id=""
+            />
+          </div>
+          <div class="flexe relative flex-col gap-[10px]">
+            <svg
+              class="absolute top-[30%] left-[80%]"
+              width="33"
+              height="33"
+              viewBox="0 0 33 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 14L17 21L24 14H10Z" fill="black" />
+            </svg>
+            <p>Стоимость</p>
+            <input
+              type="text"
+              placeholder="60 000  $ "
+              class="placeholder:text-black bg-gray-100 p-2 w-[90%]"
+              name=""
+              id=""
+            />
+            <input
+              type="range"
+              class="bg-[#EFA35A] text-[#EFA35A] w-[90%]"
+              name=""
+              id=""
+            />
+          </div>
+          <button
+            class="bg-gradient-to-r from-[#EFA35A] via-[#f39a47] to-orange-950 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_30px_orange] hover:scale-110 transition-transform text-white py-4 w-[100%]"
+          >
+            Расчитать платёж
+          </button>
+        </div>
+      </div>
+    </section>
+    <style>
+      @keyframes gradientMove {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+    <section class="max-w-300 mx-auto mt-20 p-4">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex justify-between items-centerddd">
+          <p class="text-[35px] font-bold">расПоложение</p>
+          <button
+            class="hidden lg:block sm:block border-gradient-to-r from-[#00f7b5] via-[#4bdeff] to-orange-50 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_4px_orange] hover:scale-110 transition-transform text-white py-4 px-12"
+          >
+            <p class="text-black font-bold">Проложить маршрут</p>
+          </button>
+        </div>
+        <p>
+          Республика Татарстан, Казань, коттеджный посёлок Изумрудный village
+        </p>
+        <img src="./img_ma/Rectangle 112.png" alt="" />
+        <button
+          class="sm:hidden lg:hidden border-gradient-to-r from-[#00f7b5] via-[#4bdeff] to-orange-50 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_4px_orange] hover:scale-110 transition-transform text-white py-4 px-12"
+        >
+          <p class="text-black font-bold">Проложить маршрут</p>
+        </button>
+      </div>
+    </section>
+    <section class="max-w-300  mx-auto mt-25 p-4">
+      <h1 class="text-[35px] font-bold">Похожие проекты</h1>
+      <div class="mt-10 overflow-auto flex-col items-center lg:flex-row flex gap-[40px]">
+        <div
+          class="left-fulle w-fit border-[1px] border-solid border-[#EFA359] flex-col gap-[20px]"
+        >
+          <img src="./img_ma/Rectangle 122 (1).png" alt="" />
+          <p class="font-bold p-4 text-[24px]">Dom-2</p>
+          <div class="p-4 flex gap-[20px] items-center">
+            <img src="./img_ma/carbon_home (2).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="flex p-4 gap-[20px] items-center">
+            <img src="./img_ma/carbon_floorplan (1).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="p-4">
+            <button
+            class="hidden lg:block sm:block border-gradient-to-r from-[#00f7b5] via-[#4bdeff] to-orange-50 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_4px_orange] hover:scale-110 transition-transform text-white py-4 px-12"
+            >
+            <p class="text-black font-bold">Проложить маршрут</p>
+          </button>
+        </div>
+        </div>
+        <div
+          class="left-fulle w-fit border-[1px] border-solid border-[#EFA359] flex-col gap-[20px]"
+        >
+          <img src="./img_ma/Rectangle 122 (1).png" alt="" />
+          <p class="font-bold p-4 text-[24px]">Dom-2</p>
+          <div class="p-4 flex gap-[20px] items-center">
+            <img src="./img_ma/carbon_home (2).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="flex p-4 gap-[20px] items-center">
+            <img src="./img_ma/carbon_floorplan (1).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="p-4">
+            <button
+            class="hidden lg:block sm:block border-gradient-to-r from-[#00f7b5] via-[#4bdeff] to-orange-50 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_4px_orange] hover:scale-110 transition-transform text-white py-4 px-12"
+            >
+            <p class="text-black font-bold">Проложить маршрут</p>
+          </button>
+        </div>
+        </div>
+        <div
+          class="left-fulle w-fit border-[1px] border-solid border-[#EFA359] flex-col gap-[20px]"
+        >
+          <img src="./img_ma/Rectangle 122 (1).png" alt="" />
+          <p class="font-bold p-4 text-[24px]">Dom-2</p>
+          <div class="p-4 flex gap-[20px] items-center">
+            <img src="./img_ma/carbon_home (2).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="flex p-4 gap-[20px] items-center">
+            <img src="./img_ma/carbon_floorplan (1).png" alt="" />
+            <p>Площадь дома - 120 м2</p>
+          </div>
+          <div class="p-4">
+            <button
+            class="hidden lg:block sm:block border-gradient-to-r from-[#00f7b5] via-[#4bdeff] to-orange-50 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1s_linear_infinite] shadow-[0_0_4px_orange] hover:scale-110 transition-transform text-white py-4 px-12"
+            >
+            <p class="text-black font-bold">Проложить маршрут</p>
+          </button>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
 </html>
